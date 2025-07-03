@@ -1,134 +1,46 @@
+# Getting Started with Create React App
 
-# DocSpot - Seamless Appointment Booking for Health
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Full Stack Development with MERN
+## Available Scripts
 
-DocSpot is an online doctor appointment booking system designed to simplify the process of scheduling appointments with healthcare professionals. It offers real-time booking, role-based access, and easy management for users, doctors, and admins.
+In the project directory, you can run:
 
----
+### `npm start`
 
-## 📂 Project Features
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-- ✅ Role-based Login for Users, Doctors, Admins  
-- ✅ Doctor Management and Approval  
-- ✅ Real-time Appointment Scheduling  
-- ✅ Admin Controls and User Management  
-- ✅ Responsive UI with React and Material UI  
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
----
+### `npm test`
 
-## 🛠️ Tech Stack
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-- **Frontend:** React, Material UI  
-- **Backend:** Node.js, Express.js  
-- **Database:** MongoDB  
+### `npm run build`
 
----
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## 📁 Project Folder Structure
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-```
-├── client      # React Frontend
-├── server      # Express Backend API
-├── Project Report
-├── Video Demo
-```
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
----
+### `npm run eject`
 
-## 🚀 Setup Instructions
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-### Prerequisites
-- Node.js  
-- NPM  
-- MongoDB  
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-### Installation
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-```bash
-# Clone the repository
-git clone https://github.com/your-username/docspot-appointment-booking.git
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-# Install frontend dependencies
-cd client
-npm install
+## Learn More
 
-# Install backend dependencies
-cd ../server
-npm install
-```
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
----
-
-## 🖥️ Running the Application
-
-Start MongoDB server locally, then:
-
-```bash
-# Start Frontend
-cd client
-npm start
-
-# Start Backend
-cd ../server
-npm start
-```
-
-Application runs on:  
-Frontend: `http://localhost:3000`  
-Backend API: `http://localhost:5000`  
-
----
-
-## 🔒 Authentication
-
-- Email & Password based authentication for all roles  
-- Planned future enhancement: JWT Security  
-
----
-
-## 📋 API Endpoints
-
-| Method | Endpoint              | Description           |
-|--------|-----------------------|-----------------------|
-| POST   | `/api/users/register` | Register a new user   |
-| POST   | `/api/users/login`    | Login for users       |
-| GET    | `/api/users/doctors`  | Fetch doctor list     |
-| POST   | `/api/appointments`   | Book an appointment   |
-
----
-
-## 🖥️ User Interfaces
-
-- Login & Registration Pages  
-- Doctor Listing & Booking Form  
-- User & Doctor Dashboards  
-- Admin Approval Page  
-
----
-
-## 🧪 Testing
-
-- Backend APIs tested using Postman  
-- Frontend tested across browsers with Chrome DevTools  
-
----
-
-## 👨‍💻 Team Members
-
-- Mamidi Yashaswini (Team Leader)  
-- Chinthakayala Balaji  
-- Veligandla Pranathi  
-- Shaik Irfan  
-- Koneti Sreevidya  
-
----
-
-## 🎥 Demo
-
-Video demo available inside the `Video Demo` folder in the project repository.
-
----
-
-# 📌 Note
-This project is designed for academic and learning purposes, focusing on core MERN stack development.
+To learn React, check out the [React documentation](https://reactjs.org/).
